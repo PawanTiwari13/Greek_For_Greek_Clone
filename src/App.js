@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './pages/Header';
+import HeaderOne from "./pages/HeaderOne";
 function App() {
   return (
     <div className="App">
@@ -9,6 +10,11 @@ function App() {
 
         </div>
       </div>
+        <div className='row'>
+            <div className='col-lg-12'>
+                <HeaderOne/>
+            </div>
+        </div>
 
 
 
